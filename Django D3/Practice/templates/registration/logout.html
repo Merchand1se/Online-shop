@@ -1,0 +1,12 @@
+{% extends "flatpages/default.html" %}
+
+{% block content %}
+
+<h3>You have been successfully logouted!</h3>
+
+<h3>If you want to login:</h3>
+<form action="127.0.0.1:8000/accounts/login">
+    <input type="submit" value="LOGIN" />
+</form>
+
+{% endblock %}

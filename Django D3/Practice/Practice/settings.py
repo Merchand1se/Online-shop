@@ -44,6 +44,8 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'allauth.socialaccount.providers.yandex',
+    'allauth',
+    'django_apscheduler',
 ]
 SITE_ID = 1
 
@@ -156,4 +158,13 @@ EMAIL_HOST_PASSWORD = '2arCraftmarin462,'
 EMAIL_USE_TLS = False
 EMAIL_USE_SSL = True
 
-DEFAULT_FROM_EMAIL = "ShopExample"
+DEFAULT_FROM_EMAIL = "metkovskyvladislav@yandex.ru"
+
+SERVER_EMAIL = "metkovskyvladislav@yandex.ru"
+MANAGERS = (
+    ('Vladislav', 'mevmavmva@gmail.com'),
+    ('Petr', 'petr@yandex.ru'),
+)
+#7JiP_jB1
+
+ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
